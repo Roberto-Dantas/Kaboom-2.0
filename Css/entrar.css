@@ -1,0 +1,153 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+    padding: 0;
+    margin: 0;
+}
+.parteCimaa{
+    background-color: #1523ff;
+    height: 110px;
+    
+}
+#voltar{
+    margin-left:400px;
+    
+}
+#voltar:hover{
+    transform: scale(1.1); 
+    transition: all 0.5s; 
+}
+.logo{
+    margin-top: 30px;
+    height: 45px;
+    position: relative;
+}
+#voltar02{
+    float:left;
+    
+}
+#voltar02:hover{
+    none
+}
+.logo02{
+    margin-top:30px;
+    margin-left: 30px;
+    height: 45px;
+    position: relative;
+}
+#td{
+    position:relative;
+}
+.titulo{
+    margin-left: 180px;
+    
+    color:#2b43ff;
+    font-size: 40px;
+    font-weight: 450;
+}
+.parte{
+    margin-left:225px;
+    width: 450px;
+    height: 250px;
+    padding: 40px;
+    
+    background-color: #ff7e15;
+    border:3px solid black;
+    border-radius: 15px;
+    
+}
+form{
+    background-color: #ff7e15;
+    font-size: 25px;
+    text-align: center;
+    height: 150px;
+}
+.pergunta{
+    color: #2b43ff;
+    text-decoration: none;
+    background-color: #ff7e15;
+    font-size: 22px;
+    font-weight:450;
+    
+}
+input{
+    color: #000;
+}
+.resposta{
+    width: 200px;
+    height: 25px;
+    
+    padding: 0.5px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.resposta::-webkit-input-placeholder{
+    color: #000;
+    opacity:45%;
+}
+#entrar{
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    color:#fff;
+    background-color:#2b43ff;
+    
+    border: 1px solid #2b43ff;
+    border-radius: 4px;
+    
+}
+#entrar:hover{
+    transform: scale(1.1); 
+    transition: all 0.5s; 
+}
+
+
+
+
+#parteDeBaixo{
+    
+}
+.navParteDeBaixo{
+    
+}
+.ulParteDeBaixo{
+    
+}
+#parteDeBaixo li{
+    text-decoration: none;
+    list-style-type: none; 
+}
+.li1{
+    float:left;
+    padding-left: 60px;
+    
+}
+.li2{
+    float:right;
+    padding-right: 60px;
+    
+}
+#cadastro{
+    color: #2b43ff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight:350;
+    
+    
+}
+li :hover{
+    transition: all 0.2s;
+    transform: scale(1.2);
+}
+#esqueci{
+    color: #2b43ff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight:350;
+    
+}
+#aviso{
+    color: 000;
+    font-size: 25px;
+}

@@ -1,0 +1,69 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+.parteDeCima{
+    position:absolute;
+    display:block;
+    
+}
+*>.parteDeCima{
+    position:fixed;
+    width: 100%;
+    background-color: #1523ff;
+    height: 90px;
+    
+}
+.certo{
+    margin-top:110px;
+    
+}
+.caixaImg{
+    margin: 2%;
+    float: left;
+    
+}
+.logo{
+    height: 50px;
+    
+}
+nav_menu{
+    height: 100%;
+    padding: 2px;
+    
+}
+.menu{
+    margin-left: 20%;
+    margin-top: 0px;
+    
+    
+}
+#menuNela{
+    background-color: #a8530e;
+    
+}
+.menu-item{
+    float:left;
+    padding: 5%;
+    list-style-type: none;
+
+}
+.menu-item-si{
+    color:#000;
+    border-style: grove;
+    border-radius: 8%;
+    background-color:#ff7e15;
+    padding:10px;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight:550;
+    
+}
+.menu-item:hover{ 
+    transform: scale(1.1); 
+    transition: all 0.5s; 
+    
+} 

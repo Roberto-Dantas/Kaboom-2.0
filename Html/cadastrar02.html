@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="tentando_Fazer_Um_Site_Pt4"/>
+        <meta name="keywords" content="trabalho_De_Pwi"/>
+        <meta name="author" content="Roberto Dantas"/>
+        <script type="text/javascript" src="../Js/cadastrar.js"></script>
+        <title>Kabum 2.0</title>
+    </head>
+    
+    <body>
+        <button class="botao"  onclick="mostrarValor()">Continuar</button>
+        
+         <tr class="oi">
+            <p id="coluna1">aq</p>
+            <p id="coluna2">aq</p>
+            <p id="coluna3">aq</p>
+            <p id="coluna4">aq</p>
+        </tr>
+        <script>
+
+//função pra ler querystring 
+
+function queryString(parameter) { var loc = location.search.substring(1, location.search.length); var param_value = false; var params = loc.split("&"); for (i=0; i<params.length;i++) { param_name = params[i].substring(0,params[i].indexOf('=')); 
+;
+if (param_name == parameter) { param_value = params[i].substring(params[i].indexOf('=')+1) } } 
+if (param_value) { return param_value; } else { return undefined; } } 
+var variavel1 = queryString("minhaVariavel1")
+console.log(variavel1)
+
+var variavel2 = queryString("minhaVariavel2")
+console.log(variavel2)
+
+var variavel3 = queryString("minhaVariavel3")
+console.log(variavel3)
+
+var variavel4 = queryString("minhaVariavel4")
+console.log(variavel4)
+
+
+
+var saida1= document.getElementById("coluna1").innerHTML = variavel1;
+
+var saida2= document.getElementById("coluna2").innerHTML = variavel2;
+
+var saida3= document.getElementById("coluna3").innerHTML = variavel3;
+
+var saida4= document.getElementById("coluna4").innerHTML = variavel4;
+
+</script>
+        
+        
+        
+        
+        
+    </body>
+    
+    
+</html>

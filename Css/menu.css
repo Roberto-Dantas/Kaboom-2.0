@@ -1,0 +1,137 @@
+.porCima{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    background-color: rgba(0,0,0,.7);
+    
+}
+.caixaMenu{
+    margin-top: 2.5%;
+    width: 4%;
+    float:right;
+    margin-right: 6%;
+    display:inline-block;
+    overflow-y: scroll;
+    
+}
+.menuLado{
+    overflow: hidden;
+    background-color: #1523ff;
+    opacity:60%;
+    padding: 3%;    
+    position: fixed;
+    top: 0;
+    right: -750px;
+    height: 100%;
+    transition: 0.5s;
+    width: 40%;
+    
+}
+.menuImg{
+    width: 50%;
+    height: 50%;
+    
+}
+.menu-aberto{
+    text-decoration: none;
+    position:fixed;
+    display: inline-block;
+    text-transform: uppercase;
+      
+}
+ul .menuElements{
+    margin-left: 9%;
+    padding: 5%;
+    overflow-y: auto;
+    width: 65%;
+    
+}
+li{
+    list-style-type: none;
+    
+}
+.menuLado ul li a{
+    margin-top: 60px;
+    display: block;
+    list-style: none;
+    color: #989898;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 45px;
+    
+}
+.menuLado a, .menu-fechado{l
+    color: #6B6B6B;
+    display: block;
+    text-decoration: none;
+    
+}
+#menuVolta{
+    list-style: none;
+    width: 30%;
+    height: 20%;
+    color:#ff7e15;
+    margin-left:0%;
+    padding: 5%;
+    
+}
+.detalhesMenuCategorias, .entrarMenu{
+    display: block;
+    color: #989898;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size:50px;
+    margin-left: 3%;
+    padding: 5%;
+    width: 60%;
+    
+}
+.detalhesMenuCategorias{
+    
+    
+}
+.detalhesMenu{
+    border-bottom: 2px solid #fff;
+    opacity: 90%;
+    
+}
+.procura{
+    margin-top:4.7%;
+}
+.pesquisa{
+    
+}
+.pesquisa::-webkit-input-placeholder{
+    color: #000;
+    opacity:55%;
+    
+}
+
+
+
+
+.detalhesMenuCategorias:hover{
+    background-color: #ff7e15;
+    opacity:90%;
+    color: #fff;
+    
+}
+ul .menuElements:hover{
+    background-color: #ff7e15;
+    opacity:80%;
+    color: #fff;
+    
+}
+#menuVolta:hover{
+    background-color: #ff7e15;
+    opacity:90%;
+    color: #fff;
+    
+}
+.entrarMenu:hover{
+    background-color: #ff7e15;
+    opacity:90%;
+    color: #fff;
+}

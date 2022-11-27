@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+.parteDeCima{
+    position:absolute;
+    display:block;
+    
+}
+*>.parteDeCima{
+    position:fixed;
+    width: 100%;
+    background-color: #1523ff;
+    height: 115px;
+    
+}
+.certo{
+    margin-top:110px;
+    
+}
+.caixaImg{
+    margin: 3%;
+    float: left;
+    
+}
+.logo{
+    height: 50px;
+    
+}
+nav_menu{
+    margin-top:10px;
+    height: 100%;
+    
+}
+.menu{
+    margin-left: 30%;
+    
+}
+#menuNela{
+    background-color: #a8530e;
+    
+}
+.menu-item{
+    margin-top: 1.5%;
+    float:left;
+    display: block;
+    padding: 2%;
+    list-style-type: none;
+
+}
+.menu-item-si{
+    color:#000;
+    border-style: grove;
+    border-radius: 8%;
+    background-color:#ff7e15;
+    padding:7px;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight:550;
+    
+}
+.menu-item:hover{ 
+    transform: scale(1.1); 
+    transition: all 0.5s; 
+    
+} 
+.procura{
+    
+}
+.pesquisa{
+    width: 65%;
+    border-radius: 5px;
+    height: 7mm;
+    border-color:#ff7e15;
+    padding-left:10px;
+    
+}
+.pesquisaDestaque{
+    width: 160mm;
+    border-radius: 5px;
+    height: 7mm;
+    border-color:#ff7e15;
+    padding-left:10px;
+    
+}
+.footerIndex{ 
+    margin-left:0px;
+    width: 100%;
+    background-color: #1523ff;
+    padding:10%;
+    text-align:center;
+    
+}
+.textRedes{
+    color:#ff7e15;
+    font-size: 20px;
+    font-weight:550;
+    
+}
+.imagensRedes{
+    height: 60px;
+    padding: 15px;
+    
+}
+#gmail, #whats, #insta, #face{
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.creditos{
+    color:#fff;
+    font-size: 17px;
+    
+}

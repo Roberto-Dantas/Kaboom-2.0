@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="tentando_Fazer_Um_Site_Pt4"/>
+        <meta name="keywords" content="trabalho_De_Pwi"/>
+        <meta name="author" content="Roberto Dantas"/>
+        <link rel="stylesheet" href="../Css/cadastrar.css">
+        <script type="text/javascript" src="../Js/cadastrar.js"></script>
+        <title>Kabum 2.0</title>
+    </head>
+    <body>
+        <div class="parteCimaa">
+        <div id="voltar02">
+            <a href="../Html/entrar.html"><img src="../Img/voltarAutoral.png" alt="" class="logo02"></a>
+        </div>
+        <div id="voltar">
+            <a><img src="../Img/kabum-logo-1.png" alt="" class="logo"></a>
+            </div>
+            </br>
+        </div>
+        </br></br></br></br>
+        
+        <div id="td">
+            
+            <div class="parte">
+                <form>
+                    </br>
+                    <h2>CADASTRAR</h2>
+                    </br>
+                    <a class="pergunta">Nome:</a>
+                    
+                    <input type="text" placeholder="Ex. Roberto" class="resposta1" required>
+                    
+                    </br>
+                    <a class="pergunta">Data de Nascimento:</a>
+                    
+                    <input type="date" class="resposta2" required>
+                    
+                    </br>
+                    <a class="pergunta ">Celular: </a>
+                    <input type="number" placeholder="Ex. (11)95799-2190" class="resposta3">
+                    
+                    </br>
+                    <a class="pergunta">Email:</a>
+                    <input type="email" placeholder="Ex. robertodantas990@gmail.com" class="resposta4" required>
+                    </br></br>
+                    <div id="botao">
+                        <button class="botao"  onclick="entrada_dados()"><a href="../Html/cadastrar02.html">Continuar</a></button>
+                        
+                    </div>
+                    <script>
+                        function entrada_dados() {
+    //nome
+    var x1 = document.querySelector('.resposta1');
+    i1 = x1.value;
+    
+    //nascimento
+    var x2 = document.querySelector('.resposta2');
+    i2 = x2.value;
+    
+    //numero
+    var x3 = document.querySelector('.resposta3');
+    i3 = x3.value;
+    
+    //email
+    var x4 = document.querySelector('.resposta4');
+    i4 = x4.value;
+    
+    console.log(i1)
+    console.log(i2)
+    console.log(i3)
+    console.log(i4)
+    
+   
+                        
+                        var passaValor= function valor() { 
+                        
+                        window.location = "cadastrar02.html?minhaVariavel1="+i1; 
+                        window.location = "cadastrar02.html?minhaVariavel2="+i2; 
+                        window.location = "cadastrar02.html?minhaVariavel3="+i3; 
+                        window.location = "cadastrar02.html?minhaVariavel4="+i4; 
+                        
+                       }
+                     
+                       
+                       passaValor();
+                       
+                       }
+                        
+                       </script>
+                    
+      
+        
+                    
+                    
+                    
+                    
+                </form>
+                
+            </div>
+            
+            
+        </div>
+        
+        
+        
+    </body>
+    
+</html>
